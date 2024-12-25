@@ -49,7 +49,6 @@ const Help = ({ closeCallback }) => {
 					<li>
 						<span className="text-blue">fetch</span> Display browser information
 					</li>
-					
 				</ul>
 
 				<span className="block mt-line text-green">Search Aliases</span>

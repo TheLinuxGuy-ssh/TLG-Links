@@ -18,10 +18,9 @@ const Config = ({ commands, closeCallback }) => {
 		setConsoleLog([])
 
 		const cmd = commands[1]
-		
-			appendToLog("Invalid config command: " + commands.join(" "), "error")
-			usageExample()
-		
+
+		appendToLog("Invalid config command: " + commands.join(" "), "error")
+		usageExample()
 	}, [])
 
 	const importConfig = (url) => {
