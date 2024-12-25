@@ -120,158 +120,45 @@
 				"links": [
 					{
 						"name": "Portfolio",
-						"url": "https://github.com/rohansharma-developer",
+						"url": "https://thelinuxguy.tech",
 						"icon": "mdi:web"
 					},
 					{
-						"name": "Monkeytype",
-						"url": "https://monkeytype.com",
-						"icon": "simple-icons:monkeytype"
+						"name": "Github",
+						"url": "https://github.com/thelinuxguy-ssh",
+						"icon": "mdi:github"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "Instagram",
+						"url": "https://www.instagram.com/thelinuxguy.ssh/",
+						"icon": "mdi:instagram"
 					},
 					{
-						"name": "Cloudflare",
-						"url": "https://cloudflare.com",
-						"icon": "simple-icons:cloudflare"
+						"name": "Email",
+						"url": "mailto:mr.linux.0@protonmail.com",
+						"icon": "mdi:mail"
 					}
 				]
 			},
 			{
-				"title": "Dev",
+				"title": "Featured",
 				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
-						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
+						"name": "Start Page",
+						"url": "https://tlg-start-page.vercel.app/",
+						"icon": "mdi:web"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "Web Templates",
+						"url": "https://github.com/thelinuxguy-ssh/free-website-templates",
+						"icon": "mdi:web"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "Social",
-				"color": "cyan",
-				"align": "left",
-				"links": [
-					{
-						"name": "Linkedin",
-						"url": "https://linkedin.com",
-						"icon": "mdi:linkedin"
-					},
-					{
-						"name": "Instagram",
-						"url": "https://instagram.com",
-						"icon": "mdi:instagram"
-					},
-					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Discord",
-						"url": "https://discord.com/app",
-						"icon": "mdi:discord"
-					}
-				]
-			},
-			{
-				"title": "Gaming",
-				"color": "red",
-				"align": "left",
-				"links": [
-					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
-					},
-					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
-					},
-					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
-					}
-				]
-			},
-			{
-				"title": "Science",
-				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
-					},
-					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
-					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
-					},
-					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Arch Linux",
-						"url": "https://archlinux.org",
-						"icon": "uil:linux"
+						"name": "Sleek Theme",
+						"url": "https://github.com/thelinuxguy-ssh/sleek",
+						"icon": "mdi:web"
 					}
 				]
 			}

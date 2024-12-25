@@ -118,7 +118,7 @@ const Search = ({ commandChange, selectionChange }) => {
 	}, [filteredItems])
 
 	return (
-		<div id="search" className="flex">
+		<div id="search" className="hidden md:flex">
 			<Prompt />
 			<div id="search-container" className="flex grow ml-2.5">
 				<input

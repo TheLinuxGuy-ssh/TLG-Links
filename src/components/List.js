@@ -45,7 +45,7 @@ const List = () => {
 
 	return (
 		<div id="list">
-			<div className="grid grid-cols-3 gap-4 px-3 py-2 mb-5">
+			<div className="grid grid-cols-2 gap-4 px-3 py-2 mb-5">
 				{settings.sections.list.map((section, index) => {
 					return (
 						<Section
