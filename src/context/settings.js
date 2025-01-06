@@ -21,14 +21,8 @@ export const SettingsProvider = ({ children }) => {
 
 		if (IS_DOCKER) {
 			fetch("/api/loadSettings")
-				.then((response) => response.json())
-				.then((data) => setSettings(data))
 				.catch(() => setSettings(defaultConfig))
 		} else {
-			data = localStorage.getItem(SETTINGS_KEY)
-			if (data === "undefined") {
-				console.log("LocalStorage configuration reset to defaults.")
-			}
 			setSettings(data ? JSON.parse(data) : defaultConfig)
 		}
 	}, [])
