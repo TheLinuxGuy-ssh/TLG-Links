@@ -20,8 +20,7 @@ export const SettingsProvider = ({ children }) => {
 		let data
 
 		if (IS_DOCKER) {
-			fetch("/api/loadSettings")
-				.catch(() => setSettings(defaultConfig))
+			fetch("/api/loadSettings").catch(() => setSettings(defaultConfig))
 		} else {
 			setSettings(data ? JSON.parse(data) : defaultConfig)
 		}
