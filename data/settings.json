@@ -146,11 +146,6 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Zsh Terminal Theme",
-						"url": "https://github.com/TheLinuxGuy-ssh/zsh-terminal/",
-						"icon": "mdi:web"
-					},
-					{
 						"name": "Start Page",
 						"url": "https://tlg-start-page.vercel.app/",
 						"icon": "mdi:web"
@@ -163,6 +158,18 @@
 					{
 						"name": "Sleek Theme",
 						"url": "https://github.com/thelinuxguy-ssh/sleek",
+						"icon": "mdi:web"
+					}
+				]
+			},
+			{
+				"title": "Linux Utils",
+				"color": "crimson",
+				"align": "left",
+				"links": [
+					{
+						"name": "Zsh Terminal Theme",
+						"url": "https://github.com/TheLinuxGuy-ssh/zsh-terminal/",
 						"icon": "mdi:web"
 					}
 				]
