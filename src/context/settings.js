@@ -20,7 +20,7 @@ export const SettingsProvider = ({ children }) => {
 		let data
 
 		if (IS_DOCKER) {
-			fetch("/api/loadSettings").catch(() => setSettings(defaultConfig))
+			setSettings(data ? JSON.parse(data) : defaultConfig)
 		} else {
 			setSettings(data ? JSON.parse(data) : defaultConfig)
 		}
@@ -30,13 +30,7 @@ export const SettingsProvider = ({ children }) => {
 	useEffect(() => {
 		if (settings && settings !== "undefined") {
 			if (IS_DOCKER) {
-				fetch("/api/saveSettings", {
-					method: "POST",
-					headers: {
-						"Content-Type": "application/json"
-					},
-					body: JSON.stringify(settings)
-				})
+				setSettings(data ? JSON.parse(data) : defaultConfig)
 			} else {
 				localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings))
 			}
