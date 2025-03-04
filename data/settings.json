@@ -146,6 +146,11 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "The Linux Matrix (Blog)",
+						"url": "https://matrix.thelinuxguy.tech",
+						"icon": "mdi:web"
+					},
+					{
 						"name": "Start Page",
 						"url": "https://tlg-start-page.vercel.app/",
 						"icon": "mdi:web"
@@ -172,11 +177,6 @@
 						"url": "https://github.com/TheLinuxGuy-ssh/zsh-terminal/",
 						"icon": "mdi:web"
 					},
-					{
-						"name": "Zsh Terminal Theme",
-						"url": "https://github.com/TheLinuxGuy-ssh/zsh-terminal/",
-						"icon": "mdi:web"
-					}
 				]
 			}
 		]
